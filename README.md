@@ -1,6 +1,6 @@
 # <div align="center"> Comandos Básicos do GIT  :memo: ​ </div>
 
-<div align="center"> <a href="https://img.shields.io/github/stars/tayhsn/git-basic?style=social"></a> | <a href="https://img.shields.io/github/forks/tayhsn/git-basic?style=social"></a> </div>
+<div align="center"> https://img.shields.io/github/stars/tayhsn/git-basic?style=social | https://img.shields.io/github/forks/tayhsn/git-basic?style=social </div>
 
 ## Esses são os comandos *básicos*, passo-a-passo, para você subir seu projeto no GitHub :ghana:
 
@@ -16,10 +16,6 @@ Para ter esse repositório mais acessível, faça um FORK assim ele irá para os
 
   ​		```GIT ADD . ```
 
-* Acompanhar o monitoramento da pasta
-
-  ​		```GIT STATUS```
-
 * Registrar as alterações que foram feitas 
 
   ​		```GIT COMMIT -M "exemplo - initial commit"```
@@ -31,6 +27,10 @@ Para ter esse repositório mais acessível, faça um FORK assim ele irá para os
 * Finalmente, enviar os seus arquivos
 
   ​		```GIT PUSH -U ORIGIN (MASTER/MAIN)```
+  
+* Acompanhar o monitoramento da pasta
+
+  ​		```GIT STATUS```
 
 * Plus: Atualizar a versão do seu git bash pela linha de comando (WINDOWS)
 
