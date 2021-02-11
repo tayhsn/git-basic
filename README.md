@@ -1,6 +1,6 @@
 # <div align="center"> Comandos Básicos do GIT  :memo: ​ </div>
 
-<div align="center"> https://img.shields.io/github/stars/tayhsn/git-basic?style=social | https://img.shields.io/github/forks/tayhsn/git-basic?style=social </div>
+<div align="center"> <a href="https://img.shields.io/github/stars/tayhsn/git-basic?style=social"></a> | <a href="https://img.shields.io/github/forks/tayhsn/git-basic?style=social"></a> </div>
 
 ## Esses são os comandos *básicos*, passo-a-passo, para você subir seu projeto no GitHub :ghana:
 
