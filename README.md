@@ -1,8 +1,8 @@
 # <div align="center"> Comandos Básicos do GIT  :memo: ​ </div>
 
-<div align="center"> https://img.shields.io/github/stars/tayhsn/git-basic?style=social | https://img.shields.io/github/forks/tayhsn/git-basic?style=social </div>
+<div align="center"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/tayhsn/git-basic?logoColor=blue&style=social"> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tayhsn/git-basic?logoColor=yellow&style=social"> </div>
 
-## Esses são os comandos *básicos*, passo-a-passo, para você subir seu projeto no GitHub :ghana:
+## Esses são os comandos *básicos*, passo-a-passo, para você subir seu projeto no GitHub :octocat:
 
 Para ter esse repositório mais acessível, faça um FORK assim ele irá para os seus repositórios ou deixe sua estrela para salva-ló. :sparkles:
 
