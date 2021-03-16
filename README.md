@@ -22,7 +22,7 @@ Para ter esse repositório mais acessível, faça um FORK assim ele irá para os
 
 * Apontar o repositório remoto que o GIT deve enviar seus arquivos
 
-  ​		```	GIT REMOTE ADD "urlDoRepositorio"```
+  ​		```	GIT REMOTE ADD ORIGIN <urlDoRepositorio> ```
 
 * Finalmente, enviar os seus arquivos
 
