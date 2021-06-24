@@ -4,8 +4,18 @@
 
 ### Esses são os comandos *básicos* de versionamento local e remoto com Git :octocat:
 
-Para facilitar, faça um FORK para fazer uma copia desse repositório ou deixe uma estrela para salva-ló. :sparkles:
+Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. :sparkles:
 
+<hr>
+
+* Clonar um repositório do github:
+
+  ​		```GIT CLONE <url>```
+  
+* Puxar as atualizações do repositório clonado/compartilhado em tempo de desenvolvimento:
+
+  ​		```GIT PULL```
+  
 <hr>
 
 * Iniciar monitoramento da pasta de trabalho/raiz do projeto
@@ -41,16 +51,6 @@ Para facilitar, faça um FORK para fazer uma copia desse repositório ou deixe u
   ​		```GIT SHOW```
 
 <hr>
-
-* Clonar um repositório do github:
-
-  ​		```GIT CLONE <url>```
-  
-* Puxar as atualizações do repositório clonado/compartilhado em tempo de desenvolvimento:
-
-  ​		```GIT PULL```
-  
-  <hr>
   
 * Plus: Atualizar a versão do seu git bash pela linha de comando (WINDOWS)
 
