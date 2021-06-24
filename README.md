@@ -2,9 +2,9 @@
 
 <div align="center"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/tayhsn/git-basic?logoColor=blue&style=social"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tayhsn/git-basic?logoColor=yellow&style=social"> </div>
 
-### Esses são os comandos *básicos*, passo-a-passo, para você subir seu projeto no GitHub :octocat:
+### Esses são os comandos *básicos* de versionamento local e remoto com Git :octocat:
 
-Para ter esse repositório mais acessível, faça um FORK assim ele irá para os seus repositórios e deixe sua estrela para salva-ló. :sparkles:
+Para facilitar, faça um FORK para fazer uma copia desse repositório ou deixe uma estrela para salva-ló. :sparkles:
 
 <hr>
 
@@ -24,19 +24,35 @@ Para ter esse repositório mais acessível, faça um FORK assim ele irá para os
 
   ​		```	GIT REMOTE ADD ORIGIN <urlDoRepositorio> ```
 
-* Finalmente, enviar os seus arquivos
+* Finalmente, enviar os seus arquivos (-u é o comando para atrelar o diretorio local ao repositorio remoto, faça isso e nos proximos envios só precisa informar "git push)
 
   ​		```GIT PUSH -U ORIGIN (MASTER/MAIN)```
   
 * Acompanhar o monitoramento da pasta
 
   ​		```GIT STATUS```
+  
+* Ver todos os commits do repositório (aperte Q para sair do log)
 
-* Plus: Atualizar a versão do seu git bash pela linha de comando (WINDOWS)
+  ​		```GIT LOG```
+  
+* Ver o último commit do repositório 
 
-  ​		```GIT UPDATE-GIT-FOR-WINDOWS```
+  ​		```GIT SHOW```
 
 <hr>
 
+* Clonar um repositório do github:
 
+  ​		```GIT CLONE <url>```
+  
+* Puxar as atualizações do repositório clonado/compartilhado em tempo de desenvolvimento:
+
+  ​		```GIT PULL```
+  
+  <hr>
+  
+* Plus: Atualizar a versão do seu git bash pela linha de comando (WINDOWS)
+
+  ​		```GIT UPDATE-GIT-FOR-WINDOWS```
 
