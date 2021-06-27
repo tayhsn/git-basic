@@ -38,9 +38,7 @@ Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para 
 
   ​		```GIT PUSH -U ORIGIN MAIN (ou master)```
   
-* Alterar o repositório remoto 
-
-  ​		```	GIT REMOTE SET-URL ORIGIN <urlNovoRepositorio> ```
+ <hr>
   
 * Acompanhar o monitoramento da pasta
 
