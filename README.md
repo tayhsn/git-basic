@@ -34,9 +34,13 @@ Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para 
 
   ​		```	GIT REMOTE ADD ORIGIN <urlDoRepositorio> ```
 
-* Finalmente, enviar os seus arquivos (-u é o comando para atrelar o diretorio local ao repositorio remoto, faça isso e nos proximos envios só precisa informar "git push)
+* Empurrar os arquivos (-u é uma tag para atrelar o diretorio local ao repositorio remoto, assim nos proximos envios só precisa informar "git push")
 
-  ​		```GIT PUSH -U ORIGIN (MASTER/MAIN)```
+  ​		```GIT PUSH -U ORIGIN MAIN (ou master)```
+  
+* Alterar o repositório remoto 
+
+  ​		```	GIT REMOTE SET-URL ORIGIN <urlNovoRepositorio> ```
   
 * Acompanhar o monitoramento da pasta
 
