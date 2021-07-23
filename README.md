@@ -7,6 +7,7 @@
 Você pode copiar esse repositório para o seu perfil com FORK ou salvá-lo com uma STAR. :sparkles:
 
 <hr>
+
 ### Configurando o git
 
 Se você acabou de instalar o Git, você precisará configurar o seu usuário para realizar os passos abaixos, e é bem simples:
@@ -53,7 +54,9 @@ Pronto! Pode continuar..
   ​		```git push -u origin main/master```
   
   > -u é uma tag que linka o repositório indicado a pasta de trabalho, assim nos próximos envios use oapenas ```git push ```
+
  <hr>
+ 
 ### Colaborando em um projeto
 
 
@@ -93,6 +96,7 @@ Pronto! Pode continuar..
   ​		```git show```
 
 <hr>
+
 ### Atualizando o git pela cli
 
 
