@@ -26,55 +26,66 @@ Pronto! Pode continuar..
 
 ### Iniciando o versionamento
 
+> Há 2 formas de iniciar esse processo. 
+> A primeira forma é clonando um repositório já existente no Github, utilizando o comando ```git clone URL```, isso substitui os passos 1 e 4 desse passo-a-passo. 
+> A segunda forma é como fazemos a seguir, iniciando o versionamento direto da máquina e posteriormente linkando a um repositório remoto. 
+> As duas formas geram resultados iguais!
 
-* Inicia monitoramento da pasta de trabalho/working directory
+
+1. Inicia monitoramento da pasta de trabalho [working directory]
 
   ​		``` git init ```
 
-* Adiciona os arquivos da pasta na área de envio/staging área/index
+2. Adiciona os arquivos da pasta na área de envio [staging área] 
 
-  ​		```git add * ```
+  ​		```git add . ```
+  
+  > O ```.``` indica que está enviando todos os arquivos contidos na pasta atual, é uma forma prática de enviar muitos arquivos de uma vez.
 
-* Commita as alterações  
+3. Commita as alterações  
 
   ​		```git commit -m "initial commit"```
 
-  > **Boas práticas: aprenda sobre commits semânticos em: conventionalcommits.org**
+  > **Boas práticas: aprenda sobre commits semânticos: conventionalcommits.org**
 
-* Aponta o repositório remoto que o Git deve enviar seus arquivos
+4. Aponta o repositório remoto que o Git deve enviar seus arquivos
 
-  ​		```	Git remote add origin URL ```
+  ​		```	git remote add origin URL ```
 
-  > Para apontar pra outro repositório, por exemplo, mudou o nome do repositório no github, use:
-  >
-  > ```git remote set-url origin novaURL```
+  > Para apontar pra um novo repositório, ou atualizar o nome do repositório [porque voce trocou o nome no github, por exemplo], use ```git remote set-url origin novaURL```
 
-* Empurra os arquivos para o repositório indicado
+5. Empurra os arquivos para o repositório indicado
 
-  ​		```git push -u origin main/master```
+  ​		```git push -u origin main```
   
-  > -u é uma tag que linka o repositório indicado a pasta de trabalho, assim nos próximos envios use oapenas ```git push ```
+  > -u é uma tag que linka o repositório indicado a pasta de trabalho, assim nos próximos envios pode-se usar apenas ```git push ```
 
  <hr>
  
 ### Colaborando em um projeto
 
 
-* Clone o repositório do github:
+1. Clone o repositório do github:
 
   ​		```git clone URL```
 
-* Trazendo as alterações do repositório clonado para o seu local em tempo de desenvolvimento
+2. Crie a sua própria branch de desenvolvimento
 
-  ​		```git pull```
+  ​		```git checkout -b "minha-branch"```
+  
+  > ```git checkout -b``` é uma junção dos comandos git branch & git checkout, esse comando cria a branch e automaticamente se move pra ela. 
 
-* Commitando
+> Se você estiver fazendo um projeto com outras pessoas simultaneamente, antes de commitar as suas alterações é necessário atualizar o seu repo local com as alterações dos seus colegas, para isso, utilize o comando```git pull```
+
+3. Commite suas alterações
 
   ​		```git commit -m "mensagem"```
 
-* Enviando suas alterações para o repositório
+4. Envie suas alterações para o repositório 
 
-  ​		```git push -u origin main ```
+  ​		```git push -u origin "minha-branch" ```
+  
+5. Na página do repositório, irá aparecer uma mensagem sobre suas alterações, clique em "compare e pull request", informe o que se trata as suas alterações no campo indicado e submeta para review e merge.
 
   > Saiba mais sobre contribuir em projetos do GitHub aqui: https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md
 
@@ -91,7 +102,7 @@ Pronto! Pode continuar..
 
   ​		```git log```
   
-* Ver o último commit  
+* Ver somente o último commit  
 
   ​		```git show```
 
@@ -100,7 +111,7 @@ Pronto! Pode continuar..
 ### Atualizando o git pela cli
 
 
-* Atualiza a versão do seu git bash pela linha de comando (WINDOWS)
+* Atualiza a versão do seu git bash pela linha de comando (SOMENTE WINDOWS)
 
   ​		```GIT UPDATE-GIT-FOR-WINDOWS```
 
